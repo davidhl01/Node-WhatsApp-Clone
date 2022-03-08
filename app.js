@@ -17,7 +17,9 @@ const {Server} = require('socket.io') // Requerimos socket.io
 
 const io = new Server(server) // creamos una instancia y se lo asignamos a una constante
 
-server.listen(3000, ()=>{ // Puerto por el que escucha nuestro servidor
+const puerto = process.env.PORT || 3000
+
+server.listen(puerto, ()=>{ // Puerto por el que escucha nuestro servidor
 
     console.log('Servidor corriendo en http://localhost:3000')
 
