@@ -2,7 +2,7 @@
   "name": "proyecto-socketio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "nodemon proyecto-socketio",
     "test": "echo \"Error: no test specified\" && exit 1"
